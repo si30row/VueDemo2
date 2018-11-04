@@ -1,0 +1,8 @@
+﻿<div>
+    layout(app.vue) {{ message }}
+    <a href="http://localhost:64393/Home/Index">リンク</a>
+    <ul>
+        <li v-for="a in list">{{a}}</li>
+    </ul>
+    <input type="text" v-model="count" /><button @click="getListData">押せ</button>
+</div>
